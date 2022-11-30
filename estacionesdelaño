@@ -1,0 +1,15 @@
+#ENTRADAS DEL PROBLEMA
+mes = input("digita un mes del año")
+
+#EVALUANDO CAMINOS MULTIPLES (MAS DE 2)
+if mes == "marzo" or mes == "abril" or mes == "mayo":
+    print("la estacion del año es primavera")
+elif mes == "junio" or mes == "julio" or mes == "agosto":
+    print("la estacion del año es verano")
+elif mes =="septiembre" or mes == "octubre" or mes == "noviembre":
+    print("la estacion del año es otoño")
+elif mes =="diciembre" or mes == "enero" or mes =="febrero":
+    print("la estacion del año es invierno")
+else:
+    print("esto no es un mes del año")
+   
